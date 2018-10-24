@@ -1,0 +1,36 @@
+<h4 style="margin-bottom:60px;">Направления факультетов</h4>
+
+<div class="row">
+    <a href="/add_class" class="waves-effect waves-light btn btn-small">Создать направление </a>
+</div>
+
+
+<div class="row">
+
+    <table class="striped highlight" >
+        <thead>
+            <th>Факультет</th>
+            <th>Направление</th>
+            <th>Форма обучения</th>
+        </thead>
+
+        <tbody>
+        {{#each classes}}
+            <tr><td>{{this.fakultet}}</td>
+                <td>{{this.napravlenie}}</td>
+                <td>{{this.type_of_education}}</td>
+                <td>
+                    <a href="/delete/{{this.id}}" class="waves-effect waves-light btn btn-xsmall right"><i class="material-icons">delete</i> </a>
+                    <a href="/edit/{{this.id}}" class="waves-effect waves-light btn btn-xsmall right"><i class="material-icons">create</i></a>
+                </td>
+            </tr>
+        {{else}}
+            <tr  ><td class="center-align" colspan="3">Записей нет</td></tr>
+        {{/each}}
+
+        </tbody>
+
+
+    </table>
+
+</div>

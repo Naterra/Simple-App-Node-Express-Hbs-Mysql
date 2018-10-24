@@ -1,0 +1,14 @@
+.title{
+  margin-bottom:35px;
+}
+
+.btn-xsmall {
+   height: 25px;
+   line-height: 25px;
+   font-size: 12px;
+  font-font: "Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+ }
+.btn-xsmall i{
+  font-size: 12px;
+  font-font: "Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}

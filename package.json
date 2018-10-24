@@ -1,0 +1,19 @@
+{
+  "name": "mti-databases-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "~4.16.0",
+    "express-handlebars": "^3.0.0",
+    "hbs": "^4.0.1",
+    "http-errors": "~1.6.2",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}

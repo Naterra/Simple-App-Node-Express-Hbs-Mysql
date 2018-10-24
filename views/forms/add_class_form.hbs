@@ -1,0 +1,30 @@
+<h1>Создать новое</h1>
+<div class="row">
+    <form method="post" action="/create">
+
+        <div class="input-field col s12">
+            <label>Направление</label>
+            <input type="text" name="napravlenie"/>
+        </div>
+
+        <div class="input-field col s12">
+            <label>Факультет</label>
+            <input type="text" name="fakultet" />
+        </div>
+
+
+        <label>Уровень образования</label>
+        <div class="input-field col s12">
+            <select name="type_of_education" class="browser-default">
+                <option value="Бакалавр">Бакалавр</option>
+                <option value="Магистр">Магистр</option>
+            </select>
+        </div>
+
+        <div class="input-field col s12">
+        <button class="right btn btn-small waves-effect waves-light" type="submit"  >
+            <i class="material-icons right">Сохранить</i>
+        </button>
+        </div>
+    </form>
+</div>
